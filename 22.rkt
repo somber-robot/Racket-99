@@ -9,4 +9,5 @@
     (loop start (list)))
 
 (module+ main
-    (range 4 9))
+    (range 4 9)
+    (range 10 5))

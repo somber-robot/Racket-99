@@ -1,4 +1,5 @@
 #lang racket
+(provide (all-defined-out))
 
 (define (remove-at lst idx)
     (define (++ n) (+ n 1))
