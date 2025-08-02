@@ -1,5 +1,7 @@
 #lang racket
 
+(provide (all-defined-out))
+
 (define (range start end)
     (define delta (if (< start end) 1 -1))
     (define (loop i result)

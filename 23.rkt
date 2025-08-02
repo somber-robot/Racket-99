@@ -1,6 +1,8 @@
 #lang racket
 (require "20.rkt")
 
+(provide (all-defined-out))
+
 (define (rnd-select lst count)
     (define (loop clst)
         (let ((len (length clst)))
