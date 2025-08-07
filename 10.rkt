@@ -1,6 +1,8 @@
 #lang racket
 (require "9.rkt")
 
+(provide (all-defined-out))
+
 (define (encode lst)
     (define (loop clst final)
         (if (empty? clst)

@@ -1,4 +1,5 @@
 #lang racket
+(provide (all-defined-out))
 
 (define (prime? x found-primes)
     (define (prime-loop clst last)
