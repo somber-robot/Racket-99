@@ -2,6 +2,8 @@
 (require "10.rkt")
 (require "35.rkt")
 
+(provide prime-factors-mult)
+
 (define (prime-factors-mult N)
     (define (reverse-pairs clst final)
         (if (empty? clst)
