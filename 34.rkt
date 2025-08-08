@@ -1,5 +1,7 @@
 #lang racket
 
+(provide totient-phi)
+
 (define (totient-phi m)
     (define (++ n) (+ n 1))
     (define (loop i count)

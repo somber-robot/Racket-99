@@ -1,6 +1,8 @@
 #lang racket
 (require "36.rkt")
 
+(provide phi)
+
 
 (define (phi m)
     (define (-- n) (- n 1))
