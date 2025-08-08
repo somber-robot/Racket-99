@@ -1,8 +1,10 @@
 #lang racket
 
+(provide (all-defined-out))
+
 (define (is-prime? num)
     (define (iter i)
-        (if (>= (sqr i) num)
+        (if (> (sqr i) num)
             #true
             (if (= (remainder num i) 0)
                 #false
