@@ -1,6 +1,8 @@
 #lang racket
 (require "31.rkt")
 
+(provide goldbach)
+
 (define (goldbach N)
     (define (next x) (if (even? x) (+ x 1) (+ x 2)))
     (define (loop i)
